@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+}
+
+#inner{
+    height: 50vh;
+    width: 50vw;
+    background-color: yellow;
+}
+
+.h1{
+    font-size: 7vmin;
+}
+
+.emRem{
+    height: 500px;
+    width: 500px;
+    font-size: 32px;
+    background-color: #6a523d;
+}
+/* em depend on  em*/
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+h3{
+    font-size: 1.25em;
+}
+
+.emrem2{
+    height: 50%;
+    width: 75%;
+    background-color: goldenrod;
+    font-size: 26px;
+}
+/* rem depend on root element */
+.one{
+    font-size: 2rem;
+}
+.two{
+    font-size: 3rem;
+}
+.three{
+    font-size: 1rem;
+}
