@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* gap: 4vh; */
+    padding: 2vw 4vw;
+    width: 100%;
+}
+
+#nav h4{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 1vw;
+    margin-left: 0.5vw;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 1vh 2vh;
+}
+
+.intro{
+    height: 45%;
+    width: 100%;
+    background-color: beige;
+    padding: 50px;
+    
+}
+
+.intro h1{
+    font-family: playfair display;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 4vw;
+}
+
+#place{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4vw;
+}
+
+#place h3, #place h4{
+    font-family: playfair display;
+    font-size: 2vw;
+    color: brown;
+}
+
+#hero-image{
+    height: 80%;
+    width: 100%;
+    background-image: url('https://cdn.pixabay.com/photo/2024/02/10/08/01/mountains-8564328_1280.png');
+    background-size: cover;
+    /* opacity: 0.7; */
+    /* position: relative; */
+}
+
+#hero-image q{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:whitesmoke;
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+#about{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#about h2{
+    /* background-color: bisque; */
+    width: 70%;
+    font-weight: 600;
+    font-size: 3vw;
+    border-right: 2px solid black;
+    padding: 2vw;
+    word-spacing: 0.5vw;
+
+}
+
+#about-me{
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 4vw;
+    padding: 3vw;
+}
+
+#about-me h3{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    font-size: 1.5vw;
+}
