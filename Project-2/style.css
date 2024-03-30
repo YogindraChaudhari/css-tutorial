@@ -88,6 +88,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid black;
 }
 
 #about h2{
@@ -123,3 +124,52 @@ html, body{
     gap: 2vw;
     font-size: 1.5vw;
 }
+
+#section-1{
+    /* background-color: azure; */
+    height: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-1{
+    /* background-color: blanchedalmond; */
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    border-right: 2px solid black;
+}
+
+#sub-1 h3, i{
+    font-size: 2.5vw;
+}
+
+
+#sub-2{
+    /* background-color: gold; */
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+    padding: 2vw;
+}
+
+.d1, .d3{
+    border-right: 2px solid black;
+}
+
+.d1, .d2, .d3, .d4{
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.hd{
+    font-weight: 700;
+    font-size: 2vw;
+}
+
