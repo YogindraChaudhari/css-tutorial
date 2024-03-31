@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.navbar{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    width: 25%;
+    padding: 4vw;
+    /* background-color: blanchedalmond; */
+}
+
+.name h1{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.place{
+    width: 35%;
+    padding: 4vw;
+    /* background-color: bisque; */
+}
+
+.place h2{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+    /* background-color: aliceblue; */
+}
+
+.nav h3{
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.section-1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2vw;
+    /* background-color: brown; */
+    padding: 4vw;
+}
+
+.section-1 h2{
+    font-size: 1vw;
+    font-weight: 600;
+    height: 10%;
+}
+
+.section-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50%;
+    font-size: 10vw;
+    /* line-height: 6vw; */
+    letter-spacing: -0.25vw;
+    word-spacing: 1vw;
+}
+
+.section-2{
+    height: 60%;
+    width: 100%;
+    padding: 4vw;
+}
+
+.sub-1{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-2{
+    height: 60%;
+    width: 100%;  
+}
+
+.img-gal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vw;
+}
+
+.img-gal > li{
+    flex-basis: 18vw;
+    list-style: none;
+}
+
+.img-gal li img{
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 5px groove;
+    padding-left: 3vw;
+    padding-top: 3vw;
+    background-color: #f1f1f1;   
+    image-orientation: from-image; 
+}
+
+.sub-3{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.sub-sec-31{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.sub-sec-32{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.sub-sec-312 p{
+    background-color: black;
+    color: white;
+    padding: 1vw;
+    border-radius: 50%;
+}
+.sub-sec-322 p{
+    background-color: black;
+    color: white;
+    padding: 1vw;
+    border-radius: 50%;
+}
